@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "sender": "Riot Games",
+    "subject": "You Changed Your Email",
+    "body": "We successfully changed the email on your Riot Account.",
+    "date": "2024-12-02",
+    "label": "Inbox"
+  },
+  {
+    "id": 2,
+    "sender": "Pom-Pom",
+    "subject": "Награды вселенной Honkai",
+    "body": "Последние новости об обновлениях!",
+    "date": "2024-11-29",
+    "label": "Promotions"
+  }
+]

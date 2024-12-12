@@ -1,0 +1,83 @@
+.auth-container {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; /* Темный фон */
+    font-family: 'Arial', sans-serif;
+}
+
+.auth-form {
+    padding: 20px;
+    border-radius: 10px;
+    background: white; /* Полупрозрачный фон */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Тень */
+    width: 300px;
+    text-align: center;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-btn, .register-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #1a73e8;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-btn:hover, .register-btn:hover {
+    background:rgba(0, 0, 0, 0.65);
+    transition-duration: 0.3s;
+}
+
+.login-btn:active, .register-btn:active {
+    transform: scale(0.98); /* Небольшое уменьшение при клике */
+}
+
+.back-to-login {
+    text-decoration: none;
+    color: #aaa;
+}
+.back-to-login:hover {
+    color: #eee;
+}
+
+.form-errors > p{
+    color: #800f1b;
+}
+
+
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #cccccc;
+    z-index: -1;
+}
+
+.video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}

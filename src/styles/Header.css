@@ -1,0 +1,130 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-left h1 {
+    font-size: 1.5rem;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 60%;
+}
+
+.header-center form{
+    width: 100%;
+}
+.header-center form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    color: gray;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.profile-popup {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 10;
+}
+
+.profile-popup .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-body {
+    text-align: center;
+}
+
+.profile-body button {
+    padding: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-body button:hover {
+    background-color: #0c5fd3;
+}
+
+.profile-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.profile-footer button {
+    background: none;
+    border: none;
+    color: #1a73e8;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.profile-footer button:hover {
+    text-decoration: underline;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}

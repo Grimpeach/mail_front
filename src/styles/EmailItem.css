@@ -1,0 +1,32 @@
+.email-item {
+    display: grid;
+    grid-template-columns: 30px 30px 1fr 2fr 150px 30px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.email-item:hover {
+    background-color: #f9f9f9;
+}
+
+.email-sender {
+    font-weight: bold;
+}
+
+.email-date {
+    color: gray;
+    text-align: right;
+}
+
+.star-icon,
+.delete-icon {
+    cursor: pointer;
+    color: gray;
+}
+
+.star-icon:hover,
+.delete-icon:hover {
+    color: orange;
+}
